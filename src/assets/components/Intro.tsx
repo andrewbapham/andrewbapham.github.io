@@ -1,5 +1,8 @@
 import { motion, useAnimation } from "framer-motion";
 import styled from "styled-components";
+import "./component-styles/intro.css";
+import RotatingWords from "./RotatingWords";
+import SelfDescription from "./RotatingWords";
 
 const Character = styled(motion.span)`
 	display: inline-block;
@@ -23,20 +26,25 @@ function Intro() {
 
 	return (
 		<div className="title">
-			{text.split("").map(function (char, index) {
-				char = char == " " ? "\u00A0" : char;
-				return (
-					<Character
-						aria-hidden="true"
-						key={index}
-						initial="hidden"
-						animate={ctrls}
-						variants={characterAnimation}
-					>
-						{char}
-					</Character>
-				);
-			})}
+			<div>
+				{text.split("").map(function (char, index) {
+					char = char == " " ? "\u00A0" : char;
+					return (
+						<Character
+							aria-hidden="true"
+							key={index}
+							initial="hidden"
+							animate={ctrls}
+							variants={characterAnimation}
+						>
+							{char}
+						</Character>
+					);
+				})}
+			</div>
+			<RotatingWords
+				words={["developer", "engineer", "designer", "teamworker"]}
+			/>
 		</div>
 	);
 }
