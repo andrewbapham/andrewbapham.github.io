@@ -1,1 +1,5 @@
-
+.transition-button {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+}

@@ -1,7 +1,7 @@
 .title {
 	text-align: left;
 	font-family: monospace;
-	color: #ced5ff;
+	color: var(--light-slate);
 	position: absolute;
 	top: 30%;
 	left: 15%;
@@ -14,6 +14,6 @@
 }
 
 .title p {
-	color: #eceaff;
+	color: var(--lightest-slate);
 	font-size: 14px;
 }
