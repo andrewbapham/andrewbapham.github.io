@@ -1,20 +1,19 @@
 import { useState } from "react";
-import "./component-styles/rotating-words.css";
+import { TypeAnimation } from "react-type-animation";
+import "./component-styles/RotatingWords.css";
 
 function RotatingWords(props: { words: string[] }) {
-	const adjArray = props.words;
+	const words = props.words;
 
-	const [adjIndex, setAdjIndex] = useState<number>(0);
-
-	const handleClick = () => {
-		setAdjIndex(adjIndex == props.words.length - 1 ? 0 : adjIndex + 1);
-	};
 	return (
 		<div className="rotating-container">
-			<p>I'm a</p>
-			<p className="rotating-text" onClick={() => handleClick()}>
-				{adjArray[adjIndex]}
-			</p>
+			<TypeAnimation
+				sequence={words.flatMap((word) => [word, 1500])}
+				wrapper="p"
+				cursor={true}
+				repeat={Infinity}
+				style={{ margin: "1em 0px" }}
+			/>
 		</div>
 	);
 }

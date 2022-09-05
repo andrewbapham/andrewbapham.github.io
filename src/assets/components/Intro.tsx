@@ -1,49 +1,32 @@
-import { motion, useAnimation } from "framer-motion";
-import styled from "styled-components";
-import "./component-styles/intro.css";
+import { TypeAnimation } from "react-type-animation";
+import "./component-styles/Intro.css";
 import RotatingWords from "./RotatingWords";
-import SelfDescription from "./RotatingWords";
-
-const Character = styled(motion.span)`
-	display: inline-block;
-	margin-rightL -0.05em;
-`;
 
 function Intro() {
-	const text = "Hi, my name is Andrew.";
-
-	const ctrls = useAnimation();
-
-	const characterAnimation = {
-		hidden: {
-			opacity: 1,
-		},
-		visible: {
-			opacity: 1,
-			transition: {},
-		},
-	};
+	const text =
+		"I'm a passionate software engineering student who loves building interactive and exciting websites.\n\n Click below to see some of my work.";
 
 	return (
 		<div className="title">
 			<div>
-				{text.split("").map(function (char, index) {
-					char = char == " " ? "\u00A0" : char;
-					return (
-						<Character
-							aria-hidden="true"
-							key={index}
-							initial="hidden"
-							animate={ctrls}
-							variants={characterAnimation}
-						>
-							{char}
-						</Character>
-					);
-				})}
+				<h1>Hi, my name is</h1>
+				<h1>Andrew Pham.</h1>
 			</div>
-			<RotatingWords
-				words={["developer", "engineer", "designer", "teamworker"]}
+			<TypeAnimation
+				sequence={[
+					"I'm a developer",
+					800,
+					"I'm a designer",
+					800,
+					"I'm a student",
+					400,
+					"I'm a ",
+					1500,
+					text,
+				]}
+				wrapper="p"
+				cursor={true}
+				className="sub-description"
 			/>
 		</div>
 	);
