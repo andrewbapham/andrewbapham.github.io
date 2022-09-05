@@ -1,9 +1,21 @@
+@media only screen and (max-width: 555px) {
+	.side-nav {
+		display: none;
+	}
+}
+
+@media only screen and (max-height: 450px) {
+	.side-nav {
+		display: none;
+	}
+}
+
 .side-nav {
-	height: 20%;
-	max-width: 15%;
+	height: 300px;
+	max-width: 4vw;
 	position: fixed;
-	bottom: 0;
-	left: 5vw;
+	bottom: 0vh;
+	left: 20px;
 }
 
 .side-nav ul {
@@ -26,4 +38,10 @@
 
 .side-nav svg {
 	max-height: 24px;
+	max-width: 100%;
+	fill: none;
+	stroke: var(--light-slate);
+	stroke-width: 2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
 }

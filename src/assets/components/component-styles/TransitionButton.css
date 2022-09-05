@@ -1,3 +1,9 @@
+.transition-button {
+	position: absolute;
+	bottom: 10%;
+	left: 50%;
+}
+
 .arrow-svg {
 	filter: invert(89%) sepia(30%) saturate(3655%) hue-rotate(187deg)
 		brightness(111%) contrast(91%);

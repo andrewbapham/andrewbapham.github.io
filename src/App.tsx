@@ -9,8 +9,12 @@ function App() {
 
 	return (
 		<div className="App">
-			<Intro />
-			<TransitionButton />
+			<section id="intro-page">
+				<Intro />
+				<TransitionButton />
+			</section>
+			<section id="about">test content</section>
+
 			<SocialSidebar />
 			<div className="test">
 				<br></br>
