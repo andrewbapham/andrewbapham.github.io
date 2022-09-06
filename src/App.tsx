@@ -3,6 +3,8 @@ import Intro from "./assets/components/Intro";
 import "./App.css";
 import TransitionButton from "./assets/components/TransitionButton";
 import SocialSidebar from "./assets/components/SocialSidebar";
+import React from "react";
+import About from "./assets/components/About";
 
 function App() {
 	//const [count, setCount] = useState(0);
@@ -11,82 +13,14 @@ function App() {
 		<div className="App">
 			<section id="intro-page">
 				<Intro />
-				<TransitionButton />
+				<TransitionButton target={"#about"} />
 			</section>
-			<section id="about">test content</section>
+			<section id="about">
+				<About />
+				<TransitionButton target={"#about"} />
+			</section>
 
 			<SocialSidebar />
-			<div className="test">
-				<br></br>
-				<br></br>
-				&nbsp;
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				&nbsp;
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				<br></br>
-				&nbsp;
-			</div>
 		</div>
 	);
 }

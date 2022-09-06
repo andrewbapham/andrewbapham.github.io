@@ -45,3 +45,13 @@
 	stroke-linecap: round;
 	stroke-linejoin: round;
 }
+
+.side-nav svg:hover {
+	max-height: 24px;
+	max-width: 100%;
+	fill: none;
+	stroke: var(--teal);
+	stroke-width: 2;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+}

@@ -1,16 +1,10 @@
 .title {
 	text-align: left;
 	font-family: monospace;
-	color: var(--light-slate);
 	position: absolute;
 	top: 30%;
 	left: 15%;
 	max-width: 40vw;
-}
-
-.title h1 {
-	margin: 10px 0px;
-	font-size: clamp(20px, 5vw, 40px);
 }
 
 .title p {

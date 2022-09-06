@@ -1,9 +1,10 @@
+import React from "react";
 import { useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./component-styles/RotatingWords.css";
 
 function RotatingWords(props: { words: string[] }) {
-	const words = props.words;
+	const words: string[] = props.words;
 
 	return (
 		<div className="rotating-container">
