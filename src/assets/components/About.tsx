@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import "./component-styles/About.css";
 import Experience from "./Experience";
+import img1 from "./images/portrait.jpg";
 
 function About() {
 	return (
@@ -50,10 +51,7 @@ function About() {
 						</ul>
 					</div>
 					<div className="img-wrapper">
-						<motion.img
-							src="src\assets\images\portrait.jpg"
-							whileHover={{ scale: 1.1 }}
-						/>
+						<motion.img src={img1} whileHover={{ scale: 1.1 }} />
 					</div>
 				</div>
 			</div>
