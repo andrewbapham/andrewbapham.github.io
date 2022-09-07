@@ -30,7 +30,7 @@ function App() {
 			</section>
 			<section id="projects">
 				<Projects />
-				<TransitionButton target={"#experience"} />
+				<TransitionButton target={"#intro-page"} />
 			</section>
 
 			<SocialSidebar />

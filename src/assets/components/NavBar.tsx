@@ -1,6 +1,6 @@
-import { transform } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import "./component-styles/NavBar.css";
+import resume from "/Andrew_Pham_Resume.pdf";
 
 function NavBar() {
 	const [navExpanded, setNavExpanded] = useState(false);
@@ -53,8 +53,10 @@ function NavBar() {
 						<li>
 							<a href="#projects">Projects</a>
 						</li>
-						<li className="resume">
-							<a href="/resume">Resume</a>
+						<li>
+							<a className="resume" href={resume} target={"_blank"}>
+								Resume
+							</a>
 						</li>
 					</ul>
 				</aside>

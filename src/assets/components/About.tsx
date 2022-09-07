@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
 import "./component-styles/About.css";
-import img1 from "./images/portrait.jpg";
+import img1 from "/portrait.jpg";
 
 function About() {
 	return (

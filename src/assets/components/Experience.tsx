@@ -37,8 +37,12 @@ function Experience() {
 					</li>
 					<li>
 						<span className="list-text">
-							Tracked and managed work using JIRA and GitHub • Triaged software
-							defects based on severity
+							Tracked and managed work using JIRA and GitHub
+						</span>
+					</li>
+					<li>
+						<span className="list-text">
+							Triaged software defects based on severity
 						</span>
 					</li>
 					<li>
