@@ -1,8 +1,4 @@
-#about {
-	padding-top: 40px;
-}
-
-.about-content {
+.main-content {
 	width: 80%;
 	margin: 30px auto;
 }
@@ -14,6 +10,7 @@
 
 	display: inline-block;
 	background-color: var(--teal);
+	
 }
 
 .about img {
@@ -52,6 +49,7 @@
 		max-height: 22vw;
 		max-width: 22vw;
 		margin: auto;
+		margin-bottom: 100px
 	}
 }
 

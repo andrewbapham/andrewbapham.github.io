@@ -4,10 +4,17 @@ import "./component-styles/Experience.css";
 function Experience() {
 	return (
 		<div>
-			<div className="experience-card">
+			<div className="experience-card main-content">
+				<h1 className="section-header">Experience</h1>
 				<h3 className="job-title">
 					Software Developer, Co-op
-					<span className="company-name"> @ Recollective Inc.</span>
+					<span className="company-name">
+						{" "}
+						@{" "}
+						<a href="https://recollective.com/" target={"_blank"}>
+							Recollective Inc.
+						</a>
+					</span>
 				</h3>
 				<h4 className="work-dates">May 2022 - September 2022</h4>
 				<ul>

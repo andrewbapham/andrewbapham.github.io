@@ -13,8 +13,7 @@ function TransitionButton(props: { target: string }) {
 						backgroundColor: "#2a2d3d",
 					}}
 					whileHover={{
-						scale: 1.2,
-						backgroundColor: "#5d6488",
+						scale: 1.3,
 					}}
 				>
 					<svg

@@ -1,10 +1,22 @@
 .transition-button {
 	position: absolute;
-	bottom: 5%;
-	left: 50%;
+	bottom: 10%;
+	left:0;
+	right:0;
+	text-align: center;
+}
+
+@media screen and (max-height: 750px){
+	.transition-button{
+		display: none;
+	}
 }
 
 .arrow-svg {
 	filter: invert(89%) sepia(30%) saturate(3655%) hue-rotate(187deg)
 		brightness(111%) contrast(91%);
+}
+
+.transition-button-wrapper {
+	padding-bottom: 100px;
 }
