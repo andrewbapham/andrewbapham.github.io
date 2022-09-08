@@ -6,10 +6,16 @@
 	text-align: center;
 }
 
-@media screen and (max-height: 750px) and (max-width: 500px){
+@media (max-height: 768px) and (max-width: 500px){
 	.transition-button{
 		display: none;
 	}
+}
+@media screen and (max-width: 450px) {
+	.transition-button{
+		display: none;
+	}
+	
 }
 
 .arrow-svg {
