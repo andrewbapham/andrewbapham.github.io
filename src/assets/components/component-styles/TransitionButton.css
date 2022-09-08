@@ -6,7 +6,7 @@
 	text-align: center;
 }
 
-@media screen and (max-height: 750px){
+@media screen and (max-height: 750px) and (max-width: 500px){
 	.transition-button{
 		display: none;
 	}

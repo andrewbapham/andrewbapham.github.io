@@ -14,7 +14,6 @@ function NavBar() {
 
 	function handleNavClick(): void {
 		let val: boolean = !navExpanded;
-		console.log(val);
 		setNavExpanded(val);
 	}
 
@@ -73,7 +72,9 @@ function NavBar() {
 						<a href="#projects">Projects</a>
 					</li>
 					<li className="resume">
-						<a href="/resume">Resume</a>
+						<a href={resume} target={"_blank"}>
+							Resume
+						</a>
 					</li>
 				</ul>
 			</div>
