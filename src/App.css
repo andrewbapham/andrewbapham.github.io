@@ -25,3 +25,18 @@
 .list-text {
 	color: var(--lightest-slate);
 }
+
+.bottom-transition{
+	transform: rotate(180deg);
+}
+
+main {
+	transition-duration: 250ms;
+	transition-delay: 0ms;
+}
+
+.blur {
+	filter: blur(5px) brightness(0.7);
+}
+
+

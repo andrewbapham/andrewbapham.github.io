@@ -2,11 +2,12 @@ import React from "react";
 import "./component-styles/TransitionButton.css";
 import { motion } from "framer-motion";
 
-function TransitionButton(props: { target: string }) {
+function TransitionButton(props: { target: string; className: string }) {
 	const target: string = props.target;
+	const className: string = props.className;
 
 	return (
-		<div className="transition-button">
+		<div className={className + " transition-button"}>
 			<a href={target}>
 				<motion.button
 					initial={{
@@ -33,5 +34,10 @@ function TransitionButton(props: { target: string }) {
 		</div>
 	);
 }
+
+TransitionButton.defaultProps = {
+	target: "",
+	className: "",
+};
 
 export default TransitionButton;
