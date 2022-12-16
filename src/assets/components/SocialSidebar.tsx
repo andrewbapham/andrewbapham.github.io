@@ -24,7 +24,7 @@ function SocialSidebar() {
 						</motion.svg>
 					</a>
 				</li>
-				<li>
+				{/* <li>
 					<a
 						href="https://www.instagram.com/andrewpham_22/"
 						aria-label="Instagram"
@@ -43,10 +43,10 @@ function SocialSidebar() {
 							<line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
 						</motion.svg>
 					</a>
-				</li>
+				</li> */}
 				<li>
 					<a
-						href="https://www.linkedin.com/in/bchiang7"
+						href="https://www.linkedin.com/in/andrew-pham-856553221/"
 						aria-label="Linkedin"
 						target="_blank"
 						rel="noopener noreferrer"
