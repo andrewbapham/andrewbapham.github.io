@@ -1,21 +1,16 @@
 .experience-card {
-	color: var(--lightest-slate);
+  color: var(--lightest-slate);
 }
 
 .job-title {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .company-name {
-	color: var(--teal);
-}
-
-.experience-card ul {
-	color: var(--teal);
-	list-style-type: square;
+  color: var(--teal);
 }
 
 .work-dates {
-	color: var(--light-gray);
-	margin: 0;
+  color: var(--light-gray);
+  margin: 0;
 }
