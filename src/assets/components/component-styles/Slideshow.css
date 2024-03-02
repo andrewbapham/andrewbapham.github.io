@@ -1,0 +1,55 @@
+.slideshow {
+  overflow: hidden;
+  max-width: 80%;
+}
+
+.slide-element {
+  display: inline-block;
+  width: 100%;
+  border-radius: 40px;
+  white-space: normal;
+  vertical-align: top;
+}
+
+.slider {
+  white-space: nowrap;
+  transition: transform 0.6s ease;
+}
+
+.slide-dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  text-align: center;
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: var(--light-slate);
+  transition: background-color 0.6s ease;
+  margin: 0px 7px 2px 7px;
+}
+
+.dot:hover {
+  background-color: var(--light-gray);
+}
+
+.dot.active {
+  background-color: var(--teal);
+}
+
+.arrow-svg {
+  position: relative;
+  top: 1px;
+}
+
+.arrow-svg-left {
+  transform: rotate(90deg);
+}
+.arrow-svg-right {
+  transform: rotate(90deg) scale(-1);
+}
