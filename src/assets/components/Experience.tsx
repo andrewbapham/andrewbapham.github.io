@@ -15,7 +15,7 @@ function Experience() {
             companyName="Nokia"
             workDates="Jan 2024 - Apr 2024"
             jobDescription={[
-              "Suggested and implemented better error handling and messaging, improving the end user experience",
+              "Identified and implemented better error handling and messaging, improving the end user experience",
               "Added support for different packet types and protocols for automated traffic generation in Python",
               "Developed scripts for automated program installation on Ubuntu",
             ]}

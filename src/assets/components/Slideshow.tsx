@@ -21,19 +21,17 @@ const Slideshow = ({
     setIndex(newIndex);
   };
 
-  /*
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prevIndex) =>
-        prevIndex === React.Children.count(children) - 1 ? 0 : prevIndex + 1
-      );
-    }, delay);
-    return () => clearInterval(interval);
-  }, []);*/
+  const handleKeyPress = (e: React.KeyboardEvent) => {
+    console.log("keypress");
+    if (e.key === "ArrowRight") {
+      changeIndex(1)();
+    } else if (e.key === "ArrowLeft") {
+      changeIndex(-1)();
+    }
+  };
 
-  //use children as slides
   return (
-    <div className="slideshow">
+    <div className="slideshow" onKeyDown={handleKeyPress} tabIndex={-1}>
       <div
         className="slider"
         style={{ transform: `translate3d(${-index * 100}%,0,0)` }}
