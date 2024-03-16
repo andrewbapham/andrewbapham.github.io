@@ -15,9 +15,10 @@ function Experience() {
             companyName="Nokia"
             workDates="Jan 2024 - Apr 2024"
             jobDescription={[
-              "Identified and implemented better error handling and messaging, improving the end user experience",
-              "Added support for different packet types and protocols for automated traffic generation in Python",
-              "Developed scripts for automated program installation on Ubuntu",
+              "Developed a program to create PPPoE servers and clients, generate traffic, and collect metrics on Linux devices, controlled via a REST API built with Python and FastAPI",
+              "Coded API endpoints for automated traffic generation with various packet types and protocols in Python, allowing for easy testing of fixed networks",
+              "Identified opportunities for better error handling and messaging for API endpoints, and implemented them, improving the API’s UX",
+              "Wrote installation scripts for automated program installation on Ubuntu",
             ]}
           />
           <ExperienceItem
@@ -38,10 +39,9 @@ function Experience() {
             companyName="Recollective Inc."
             workDates="May 2022 - Sep 2022"
             jobDescription={[
-              "Reported, analyzed, and patched various software defects",
               "Implemented new front-end features using JSP, Vue.js, JavaScript, and HTML/CSS",
               "Developed new back-end features and API endpoints using Java, Spring and MySQL",
-              "Tracked and managed work using JIRA and GitHub",
+              "Reported, analyzed, and patched various software defects",
               "Triaged software defects based on severity",
               "Completed various QA tasks including creation of test cases and end-to-end testing",
             ]}

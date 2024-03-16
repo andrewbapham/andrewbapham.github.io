@@ -14,7 +14,6 @@ export default function ExperienceItem(props: ExperienceItemProps) {
 
   return (
     <div className="experience-item">
-      <h1 className="job-title"></h1>
       <h3 className="job-title">
         {jobTitle}
         <span className="company-name">
@@ -24,9 +23,9 @@ export default function ExperienceItem(props: ExperienceItemProps) {
       </h3>
       <h4 className="work-dates">{workDates}</h4>
       <ul>
-        {jobDescription.map((jobDescription) => (
+        {jobDescription.map((item) => (
           <li>
-            <span className="list-text">{jobDescription}</span>
+            <span className="list-text">{item}</span>
           </li>
         ))}
       </ul>
