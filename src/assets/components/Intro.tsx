@@ -5,7 +5,7 @@ import RotatingWords from "./RotatingWords";
 
 function Intro() {
   const text =
-    "I'm a passionate software engineering student at the University of Ottawa, who loves building interactive and exciting websites.\n\n Click below to see some of my work.";
+    "I'm a passionate computer science student at the University of Ottawa, who loves building interactive and exciting websites.\n\n Click below to see some of my work.";
 
   return (
     <div className="title">
@@ -17,9 +17,9 @@ function Intro() {
         sequence={[
           "I'm a developer",
           800,
-          "I'm a designer",
-          800,
           "I'm a student",
+          800,
+          "I'm a tech enthusiast",
           400,
           "I'm a ",
           1500,
