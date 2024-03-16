@@ -1,0 +1,23 @@
+.tech-text {
+  font-style: italic;
+}
+
+.project-title {
+  width: max-content;
+}
+
+.project-link:hover > .link-icon > g > path {
+  stroke: var(--teal);
+}
+
+.link-icon > g > path {
+  stroke: var(--lightest-slate);
+}
+
+.link-icon {
+  margin-left: 5px;
+}
+
+.project-link {
+  display: flex;
+}
