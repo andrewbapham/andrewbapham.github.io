@@ -5,7 +5,7 @@ import RotatingWords from "./RotatingWords";
 
 function Intro() {
   const text =
-    "I'm a passionate computer science student at the University of Ottawa, who loves learning about technology and building exciting applications.\n\n Click below to see some of my work.";
+    "I'm a passionate computer science student at the University of Ottawa, who loves learning about technology and building exciting and scalable applications.\n\n Click below to see some of my work.";
 
   return (
     <div className="title">
