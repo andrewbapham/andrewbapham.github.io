@@ -15,8 +15,8 @@ function Experience() {
             companyName="RCMP"
             workDates="May 2024 - Aug 2024"
             jobDescription={[
-              "Architected a FastAPI Python microservice providing a simple interface for categorizing media files using multiple ML models",
-              "Implemented multi-threading to run inference on models simultaneously, improving total runtime by over 50%",
+              "Created a new ingestion pipeline for a data visualization service, processing and inserting 5000 rows per second from an excel sheet to a SQLite database by optimizing database insertions, decreasing ingestion time by over 90%",
+              "Architected a FastAPI Python microservice providing a simple interface for categorizing media files using multiple ML models, implementing multi-threaded inference, improving total runtime by 35% over sequential inference",
             ]}
           />
           <ExperienceItem
@@ -40,7 +40,7 @@ function Experience() {
               "Created a new internal tool for testing LLM Prompts in Vue.js allowing for rapid prototyping of AI features",
               "Developed API endpoints and DTOs with Java, connecting the main application to an AI microservice",
               "Captured and logged AI request metadata in a FastAPI Python microservice and forwarded results to AWS OpenSearch with Fluent for validation and monitoring",
-              "• Implemented validation to the Spring controllers to support a new limited-feature license, leading to a 10% increase in sales",
+              "Implemented validation to the Spring controllers to support a new limited-feature license, leading to a 10% increase in sales",
             ]}
           />
           <ExperienceItem
