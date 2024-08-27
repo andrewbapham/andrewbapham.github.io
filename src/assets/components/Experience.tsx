@@ -15,7 +15,7 @@ function Experience() {
             companyName="RCMP"
             workDates="May 2024 - Aug 2024"
             jobDescription={[
-              "Created a new ingestion pipeline for a data visualization service, processing and inserting 5000 rows per second from an excel sheet to a SQLite database by optimizing database insertions, decreasing ingestion time by over 90%",
+              "Created a new ingestion pipeline for a data visualization service, processing and inserting 5000 rows per second from an excel sheet to a SQLite database, and optimized database insertions, decreasing ingestion time by over 90%",
               "Architected a FastAPI Python microservice providing a simple interface for categorizing media files using multiple ML models, implementing multi-threaded inference, improving total runtime by 35% over sequential inference",
             ]}
           />
