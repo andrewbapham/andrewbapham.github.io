@@ -31,34 +31,36 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <>
       <NavBar handleNavClick={handleNavClick} navExpanded={navExpanded} />
-      <main className={navExpanded ? "blur" : ""}>
-        <div id="content">
-          <section id="intro-page">
-            <Intro />
-            <TransitionButton target={"#about"} />
-          </section>
-          <section id="about">
-            <About />
-            <TransitionButton target={"#experience"} />
-          </section>
-          <section id="experience">
-            <Experience />
-            <TransitionButton target={"#projects"} />
-          </section>
-          <section id="projects">
-            <Projects />
-            <TransitionButton
-              className="bottom-transition"
-              target={"#intro-page"}
-            />
-          </section>
+      <div className="App">
+        <main className={navExpanded ? "blur" : ""}>
+          <div id="content">
+            <section id="intro-page">
+              <Intro />
+              <TransitionButton target={"#about"} />
+            </section>
+            <section id="about">
+              <About />
+              {/* <TransitionButton target={"#experience"} /> */}
+            </section>
+            <section id="experience">
+              <Experience />
+              {/* <TransitionButton target={"#projects"} /> */}
+            </section>
+            <section id="projects">
+              <Projects />
+              {/* <TransitionButton
+                className="bottom-transition"
+                target={"#intro-page"}
+              /> */}
+            </section>
 
-          <SocialSidebar />
-        </div>
-      </main>
-    </div>
+            <SocialSidebar />
+          </div>
+        </main>
+      </div>
+    </>
   );
 }
 

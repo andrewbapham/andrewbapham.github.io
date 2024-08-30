@@ -1,13 +1,11 @@
 .title {
   text-align: left;
   font-family: monospace;
-  position: absolute;
-  top: 30%;
-  left: 10%;
-  max-width: 40vw;
+  margin-left: 10%;
+  max-width: 70vw;
 }
 
 .title p {
   color: var(--lightest-slate);
-  font-size: 14px;
+  font-size: 1em;
 }
