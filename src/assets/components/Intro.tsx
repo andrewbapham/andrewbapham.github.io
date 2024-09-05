@@ -14,6 +14,7 @@ function Intro() {
         <h1>Andrew Pham.</h1>
       </div>
       <TypeAnimation
+        preRenderFirstString={true}
         speed={50}
         sequence={[text]}
         wrapper="p"
