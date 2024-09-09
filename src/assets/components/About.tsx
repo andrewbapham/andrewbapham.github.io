@@ -39,7 +39,7 @@ function About() {
                 <span className="list-text">React.js</span>
               </li>
               <li>
-                <span className="list-text">C</span>
+                <span className="list-text">C++</span>
               </li>
               <li>
                 <span className="list-text">Vue.js</span>
