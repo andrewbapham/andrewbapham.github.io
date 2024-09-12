@@ -15,7 +15,9 @@ function Experience() {
               companyLink="https://nokia.com"
               companyName="Nokia"
               workDates="Sep 2024 - Dec 2024"
-              jobDescription={["Internship in progress..."]}
+              jobDescription={[
+                "Contributing to the development of router management core interface, built in \textbf{C++}, providing a unified interface for configuring routers via different methods such as Netconf, SNMP, gNMI and classic CLI",
+              ]}
             />
             <ExperienceItem
               jobTitle="IT Software Solutions Developer"
