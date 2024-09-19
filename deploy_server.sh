@@ -6,6 +6,6 @@ npm run build
 
 echo "copying to server..."
 
-scp -r dist/* andrew@168.138.79.201:/app/dist
+scp -r dist/* ubuntu@155.248.232.163:/app/dist
 
 echo "deployed to server!"
