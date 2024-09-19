@@ -8,7 +8,7 @@ function Experience() {
     <div className="main-content section-container">
       <div className="experience-card">
         <h1 className="section-header">Experience</h1>
-        <div>
+        <div className="experience-slideshow">
           <Slideshow delay={4000}>
             <ExperienceItem
               jobTitle="Embedded C/C++ Software Developer"
@@ -16,7 +16,7 @@ function Experience() {
               companyName="Nokia"
               workDates="Sep 2024 - Dec 2024"
               jobDescription={[
-                "Contributing to the development of router management core interface, built in \textbf{C++}, providing a unified interface for configuring routers via different methods such as Netconf, SNMP, gNMI and classic CLI",
+                "Contributing to the development of router management core interface, built in C++, providing a unified interface for configuring routers via different methods such as Netconf, SNMP, gNMI and classic CLI",
               ]}
             />
             <ExperienceItem

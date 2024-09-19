@@ -1,5 +1,6 @@
 .experience-card {
   color: var(--lightest-slate);
+  width: 90%;
 }
 
 .job-title {

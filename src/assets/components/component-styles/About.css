@@ -21,13 +21,6 @@
   filter: unset;
 }
 
-.about-inner {
-  display: grid;
-  place-items: center;
-  grid-template-columns: 3fr 2fr;
-  gap: 50px;
-}
-
 @media only screen and (max-width: 800px) {
   .about-inner {
     display: block;

@@ -21,3 +21,7 @@
 .project-link {
   display: flex;
 }
+
+.project-content {
+  width: 90%;
+}

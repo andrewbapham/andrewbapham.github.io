@@ -16,7 +16,8 @@ function Intro() {
         <p id="intro-text">
           I'm a passionate computer science student at the University of Ottawa,
           who loves learning about technology and building exciting and scalable
-          applications. Click below to see some of my work.
+          applications. <br />
+          Click below to see some of my work.
         </p>
         <span>
           {/* <TypeAnimation
