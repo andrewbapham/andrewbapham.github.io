@@ -16,7 +16,8 @@ function Experience() {
               companyName="Nokia"
               workDates="Sep 2024 - Dec 2024"
               jobDescription={[
-                "Contributing to the development of router management core interface, built in C++, providing a unified interface for configuring routers via different methods such as Netconf, SNMP, gNMI and classic CLI",
+                "Reduced Python file dependency tracking script runtime by 95% by caching results of recursive function calls and reducing the amount of read/writes to disk, saving developers over 40 seconds per build on average",
+                "Generated thousands of lines of C code using C++ based on config files, making the codebase easier to maintain/extend",
               ]}
             />
             <ExperienceItem
@@ -25,8 +26,9 @@ function Experience() {
               companyName="RCMP"
               workDates="May 2024 - Aug 2024"
               jobDescription={[
-                "Created a new ingestion pipeline for a data visualization service, processing and inserting 5000 rows per second from an excel sheet to a SQLite database, and optimized database insertions, decreasing ingestion time by over 90%",
-                "Architected a FastAPI Python microservice providing a simple interface for categorizing media files using multiple ML models, implementing multi-threaded inference, improving total runtime by 35% over sequential inference",
+                "Created a new ingestion pipeline for a Flask data visualization service, processing and inserting 5000 rows per second from an excel sheet to a SQLite database, and optimized database insertions by batching updates in transactions, decreasing ingestion time by over 90%",
+                "Architected and deployed a Dockerized FastAPI Python microservice providing a simple interface for categorizing media files using multiple Tensorflow ML models",
+                "Implemented multi-threaded inference, improving total runtime by 35% over sequential inference",
               ]}
             />
             <ExperienceItem

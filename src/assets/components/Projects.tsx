@@ -11,6 +11,27 @@ function Projects() {
         <div className="project-container">
           <Slideshow delay={4000}>
             <ProjectItem
+              projectTitle="Distributed Web Crawler"
+              projectTechnologies="Go, Apache Kafka, MongoDB, AWS S3"
+              projectDescription={[
+                "Architected and built a scalable, distributed web crawler using Go, Apache Kafka, MongoDB, and AWS S3",
+                "Developed separate services in Go for fetching site data to store HTML content in Amazon Web Services (AWS) S3 and collecting site metadata, and processing site data to extract text and other linked pages, allowing for independent scaling",
+                "Utilized Apache Kafka as a resilient, distributed message queue to coordinate processing between the services",
+              ]}
+              githubLink="https://github.com/andrewbapham/justvent"
+            />
+            <ProjectItem
+              projectTitle="JustVent - Second in Best Use of Cloud Technology @ Hack the Hill 2"
+              projectTechnologies="Python, Go, React, MongoDB, PostgreSQL, AWS"
+              projectDescription={[
+                "Created an app allowing users to journal and track their emotions over time using an NLP model run with PyTorch",
+                "Developed the backend supporting main functionality in Python & FastAPI, with MongoDB as the primary database",
+                "Implemented a semantic search microservice with Go on AWS Lambda, storing vector embeddings on PostgreSQL",
+                "Designed application architecture and managed deployment on Amazon Web Services",
+              ]}
+              githubLink="https://github.com/andrewbapham/justvent"
+            />
+            <ProjectItem
               projectTitle="Sugar Shack Monitor"
               projectTechnologies="C, ESP32, Node.js/Express"
               projectDescription={[
