@@ -30,10 +30,16 @@ function About() {
             <p>Recently, I've been working with: </p>
             <ul>
               <li>
-                <span className="list-text">JS/TS</span>
+                <span className="list-text">Go</span>
+              </li>
+              <li>
+                <span className="list-text">AWS</span>
               </li>
               <li>
                 <span className="list-text">Python/FastAPI</span>
+              </li>
+              <li>
+                <span className="list-text">JS/TS</span>
               </li>
               <li>
                 <span className="list-text">React.js</span>

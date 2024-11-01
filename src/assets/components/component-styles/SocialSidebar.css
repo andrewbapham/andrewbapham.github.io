@@ -1,57 +1,57 @@
 @media only screen and (max-width: 555px) {
-	.side-nav {
-		display: none;
-	}
+  .side-nav {
+    display: none;
+  }
 }
 
 @media only screen and (max-height: 450px) {
-	.side-nav {
-		display: none;
-	}
+  .side-nav {
+    display: none;
+  }
 }
 
 .side-nav {
-	height: 300px;
-	max-width: 4vw;
-	position: fixed;
-	bottom: 0vh;
-	left: 20px;
+  height: 300px;
+  max-width: 4vw;
+  position: fixed;
+  bottom: 0vh;
+  left: 20px;
 }
 
 .side-nav ul {
-	padding: 0;
-	list-style-type: none;
+  padding: 0;
+  list-style-type: none;
 }
 
 .side-nav ul::after {
-	content: "";
-	display: block;
-	width: 1px;
-	height: 90px;
-	margin-left: 11px;
-	background-color: var(--light-slate);
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin-left: 11px;
+  background-color: var(--light-slate);
 }
 
 .side-nav li {
-	margin: 10px 0px;
+  margin: 10px 0px;
 }
 
 .side-nav svg {
-	max-height: 24px;
-	max-width: 100%;
-	fill: none;
-	stroke: var(--light-slate);
-	stroke-width: 2;
-	stroke-linecap: round;
-	stroke-linejoin: round;
+  max-height: 24px;
+  max-width: 100%;
+  fill: none;
+  stroke: var(--light-slate);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
 
 .side-nav svg:hover {
-	max-height: 24px;
-	max-width: 100%;
-	fill: none;
-	stroke: var(--teal);
-	stroke-width: 2;
-	stroke-linecap: round;
-	stroke-linejoin: round;
+  max-height: 24px;
+  max-width: 100%;
+  fill: none;
+  stroke: var(--teal);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
 }
