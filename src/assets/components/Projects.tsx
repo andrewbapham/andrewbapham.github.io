@@ -21,6 +21,16 @@ function Projects() {
               githubLink="https://github.com/andrewbapham/justvent"
             />
             <ProjectItem
+              projectTitle="BoxAR"
+              projectTechnologies="Python, OpenCV, MediaPipe, Flask, React.js"
+              projectDescription={[
+                "Built a boxing training game that utilizes OpenCV and MediaPipe to track user movements and detect punches, blocks and dodges",
+                "Developed a Flask backend to serve the generated OpenCV frames to the React front-end",
+                "Enabled local multiplayer by enabling cross server communication for sending punches between players",
+              ]}
+              githubLink="https://github.com/andrewbapham/justvent"
+            />
+            <ProjectItem
               projectTitle="JustVent - Second in Best Use of Cloud Technology @ Hack the Hill 2"
               projectTechnologies="Python, Go, React, MongoDB, PostgreSQL, AWS"
               projectDescription={[
