@@ -16,6 +16,7 @@ function Experience() {
               companyName="Nokia"
               workDates="Sep 2024 - Dec 2024"
               jobDescription={[
+                "Designed and implemented an encoding technique leveraging C++ and Protobuf to reduce log size by over 30%, allowing more vital crash data to be preserved in a limited sized log buffer",
                 "Developed new features and unit tests for a model-driven router management interface using C++, enabling dependency tracking between config fields, allowing users to apply config changes without needing to follow a strict order of operations",
                 "Reduced Python file dependency tracking script runtime by 95% by caching results of recursive function calls and reducing the amount of read/writes to disk, saving developers over 40 seconds per build on average",
                 "Generated thousands of lines of C code using C++ based on config files, making the codebase easier to maintain/extend",
