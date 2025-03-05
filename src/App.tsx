@@ -1,13 +1,13 @@
 import { useEffect, useState } from "react";
-import Intro from "./assets/components/Intro";
+import Intro from "./components/Intro";
 import "./App.css";
-import TransitionButton from "./assets/components/TransitionButton";
-import SocialSidebar from "./assets/components/SocialSidebar";
+import TransitionButton from "./components/TransitionButton";
+import SocialSidebar from "./components/SocialSidebar";
 import React from "react";
-import About from "./assets/components/About";
-import Experience from "./assets/components/Experience";
-import Projects from "./assets/components/Projects";
-import NavBar from "./assets/components/NavBar";
+import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/Projects";
+import NavBar from "./components/NavBar";
 
 function App() {
   const blur = {

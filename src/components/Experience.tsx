@@ -11,6 +11,16 @@ function Experience() {
         <div className="experience-slideshow">
           <Slideshow delay={4000}>
             <ExperienceItem
+              jobTitle="Software Engineer Intern"
+              companyLink="https://www.tesla.com/"
+              companyName="Tesla"
+              workDates="Jan 2025 - May 2025"
+              jobDescription={[
+                "Designed a Dockerized Python application to scan social media sites for complaints about Tesla’s infotainment systems, integrating open-source LLMs with Ollama to determine relevance, summarize post content, and generate email reports for engineers, analyzing thousands of posts and reducing manual investigation time by over 20 hours per week",
+                "Implemented a telemetry verification system for mobile application commands by correlating application and vehicle logs from multiple sources, streamlining the testing process and reducing the number of cases requiring manual investigation byover 60%",
+              ]}
+            />
+            <ExperienceItem
               jobTitle="Embedded C/C++ Software Developer"
               companyLink="https://nokia.com"
               companyName="Nokia"
