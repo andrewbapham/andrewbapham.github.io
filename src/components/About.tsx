@@ -12,20 +12,21 @@ function About() {
           <div>
             <p>
               Hey! My name is Andrew and I'm a computer science student at the
-              University of Ottawa who enjoys designing, creating and
-              maintaining websites and applications! I've always had an interest
-              in computers and technology, but my coding journey began back in
-              2016, when I first discovered Python. I followed some tutorials in
-              preparation for my high school computer science classes and really
-              enjoyed the challenges that coding gave, and the ability to
-              express my creativity!
+              University of Ottawa who enjoys is passionate about creating
+              highly performant and useful applications! I've always had an
+              interest in computers and technology, but my coding journey began
+              back in 2016, when I first discovered Python. I followed some
+              tutorials in preparation for my high school computer science
+              classes and really enjoyed the challenges that coding gave, and
+              the ability to express my creativity!
             </p>
             <p>
               Since then, I've played around with game development with C# and
-              Unity, building physical projects using Arduino and C, and am now
-              focused on full-stack web development. I believe the possibilities
-              are endless with the internet and I enjoy creating scalable,
-              useful and usable websites and web applications.
+              Unity, built physical projects using Arduino and C, created
+              user-friendly and interactive websites, and am now focused on
+              distributed systems, infra and related tooling. I believe the
+              possibilities are endless with technology and I enjoy creating
+              scalable, useful and usable applications.
             </p>
             <p>Recently, I've been working with: </p>
             <ul>
