@@ -11,13 +11,25 @@ function Experience() {
         <div className="experience-slideshow">
           <Slideshow delay={4000}>
             <ExperienceItem
-              jobTitle="Software Engineer Intern"
+              jobTitle="Software Engineer Intern, Dojo"
+              companyLink="https://www.tesla.com/"
+              companyName="Tesla"
+              workDates="May 2025 - Aug 2025"
+              jobDescription={[
+                "Reduced CI resource usage by over 20% in certain cases by analyzing test case performance with SQL/Pandas and implementing dynamic test timeouts",
+                "Delivered multiple monitoring solutions including dashboards and alerts with Python and Grafana for CI test results, speeding up failing/flaky test case debugging",
+                "Created a monitoring solution to alert the infrastructure team when CI nodes became unhealthy or unavailable using rometheus/Grafana and Python/GitHub API, reducing incident response times by over 60%",
+              ]}
+            />
+            <ExperienceItem
+              jobTitle="Software Engineer Intern, Infotainment"
               companyLink="https://www.tesla.com/"
               companyName="Tesla"
               workDates="Jan 2025 - May 2025"
               jobDescription={[
+                "Designed a Python application to scan social media sites for complaints about Tesla’s infotainment systems, integrating open-source LLMs with Ollama to determine relevance, summarize post content, and generate email reports for engineers, analyzing thousands of posts and reducing manual investigation time by over 25 hours per week",
                 "Designed a Dockerized Python application to scan social media sites for complaints about Tesla’s infotainment systems, integrating open-source LLMs with Ollama to determine relevance, summarize post content, and generate email reports for engineers, analyzing thousands of posts and reducing manual investigation time by over 20 hours per week",
-                "Implemented a telemetry verification system for mobile application commands by correlating application and vehicle logs from multiple sources, streamlining the testing process and reducing the number of cases requiring manual investigation byover 60%",
+                "Led the development of a mobile automation framework for Tesla’s Robotaxi mobile application using Python and Appium, enabling automated CI checks for mobile app development and nightly smoke testing for releases",
               ]}
             />
             <ExperienceItem
@@ -26,9 +38,9 @@ function Experience() {
               companyName="Nokia"
               workDates="Sep 2024 - Dec 2024"
               jobDescription={[
-                "Designed and implemented an encoding technique leveraging C++ and Protobuf to reduce log size by over 30%, allowing more vital crash data to be preserved in a limited sized log buffer",
+                "Reduced log buffer size by ∼30% using a custom C++/Protobuf encoding scheme to preserve more crash data",
                 "Developed new features and unit tests for a model-driven router management interface using C++, enabling dependency tracking between config fields, allowing users to apply config changes without needing to follow a strict order of operations",
-                "Reduced Python file dependency tracking script runtime by 95% by caching results of recursive function calls and reducing the amount of read/writes to disk, saving developers over 40 seconds per build on average",
+                "Accelerated build process by 40+ seconds by optimizing a recursive Python file dependency tracking script using caching and batching disk read/writes",
                 "Generated thousands of lines of C code using C++ based on config files, making the codebase easier to maintain/extend",
               ]}
             />
