@@ -28,7 +28,6 @@ function Experience() {
               workDates="Jan 2025 - May 2025"
               jobDescription={[
                 "Designed a Python application to scan social media sites for complaints about Tesla’s infotainment systems, integrating open-source LLMs with Ollama to determine relevance, summarize post content, and generate email reports for engineers, analyzing thousands of posts and reducing manual investigation time by over 25 hours per week",
-                "Designed a Dockerized Python application to scan social media sites for complaints about Tesla’s infotainment systems, integrating open-source LLMs with Ollama to determine relevance, summarize post content, and generate email reports for engineers, analyzing thousands of posts and reducing manual investigation time by over 20 hours per week",
                 "Led the development of a mobile automation framework for Tesla’s Robotaxi mobile application using Python and Appium, enabling automated CI checks for mobile app development and nightly smoke testing for releases",
               ]}
             />
