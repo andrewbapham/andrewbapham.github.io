@@ -16,7 +16,7 @@ function Experience() {
               companyName="Tesla"
               workDates="May 2025 - Aug 2025"
               jobDescription={[
-                "Reduced CI resource usage by over 20% in certain cases by analyzing test case performance with SQL/Pandas and implementing dynamic test timeouts",
+                "Developed an Apache Airflow DAG to losslessly compress attachments in AWS S3, reducing average file size by over 10% and saving over 300GB of space in object storage",
                 "Delivered multiple monitoring solutions including dashboards and alerts with Python and Grafana for CI test results, speeding up failing/flaky test case debugging",
                 "Created a monitoring solution to alert the infrastructure team when CI nodes became unhealthy or unavailable using rometheus/Grafana and Python/GitHub API, reducing incident response times by over 60%",
               ]}
